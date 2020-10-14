@@ -1,7 +1,7 @@
 const algoliasearch = require('algoliasearch');
 const fetch = require('node-fetch');
 
-const client = algoliasearch('0HCA6HLFLT','c22ad8fe09f15afb1ffff10302671bd3');
+const client = algoliasearch('APP_ID','ADMIN_API_KEY');
 
 const index = client.initIndex('demo_ecommerce');
 
